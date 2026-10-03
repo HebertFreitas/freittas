@@ -25,7 +25,7 @@ function CountUp({ value, decimals = 0, suffix = '' }) {
     return () => controls.stop()
   }, [inView, reduce, value, format])
 
-  return <span ref={ref}>{display}{suffix}</span>
+  return <span ref={ref}>{display}{suffix && <span className="stats__suffix">{suffix}</span>}</span>
 }
 
 export function Intro() {
