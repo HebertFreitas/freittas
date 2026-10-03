@@ -65,7 +65,7 @@ export const copy = {
   intro: {
     first: "Mais que um beat.",
     second: "Uma assinatura.",
-    text: "Sou o Freittas, produtor musical de Belo Horizonte. Há 2 anos transformo ideias de artistas em faixas com pressão, groove e personalidade, com atendimento 100% online.",
+    text: "Sou o Freittas, produtor musical de Belo Horizonte. Há 6 anos transformo ideias de artistas em faixas com pressão, groove e personalidade, com atendimento 100% online.",
     stepsLabel: "Como funciona",
   },
   music: {
