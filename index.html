@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Values come from src/config/site.js (see vite.config.js). -->
+    <link rel="icon" type="image/png" href="%SITE_LOGO%" />
+    <meta name="theme-color" content="%SITE_THEME_COLOR%" />
+    <title>%SITE_TITLE%</title>
+    <meta name="description" content="%SITE_DESCRIPTION%" />
+    <meta property="og:title" content="%SITE_OG_TITLE%" />
+    <meta property="og:description" content="%SITE_OG_DESCRIPTION%" />
+    <meta property="og:image" content="%SITE_OG_IMAGE%" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="%SITE_FONTS_URL%" />
+    <link rel="preload" as="image" href="%SITE_OG_IMAGE%" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

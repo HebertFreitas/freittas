@@ -1,0 +1,39 @@
+/*
+ * Preset "odonto": Odontologia, clínica médica, fisioterapia, pet: azul e branco.
+ * To use it: copy this whole file over src/config/theme.css,
+ * and set seo.fontsUrl in src/config/site.js to:
+ * https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Manrope:wght@400;500;600;700&display=swap
+ * Also set seo.themeColor to #0f2233.
+ */
+:root {
+  /* Dark surfaces: header, hero shade, app section, footer, overlays. */
+  --dark: #0f2233;
+  --dark-rgb: 15 34 51;
+  --dark-2: #18304a;
+
+  /* Light surfaces. */
+  --base: #f8fafc;      /* main page background */
+  --surface: #eaf1f6;   /* alternating sections, icon boxes */
+  --line: #d6e1ea;
+
+  /* Text. */
+  --text: #132433;
+  --muted: #526474;
+  --neutral: #587086;   /* icons and small neutral details */
+  --neutral-rgb: 88 112 134;
+  --on-dark: #eef5fa;
+  --on-dark-rgb: 238 245 250;
+  --on-dark-muted: rgb(var(--on-dark-rgb) / 0.66);
+  --on-dark-line: rgb(var(--on-dark-rgb) / 0.12);
+
+  /* Brand accents: --accent on light backgrounds, --accent-light on dark ones. */
+  --accent: #1f6aa0;
+  --accent-rgb: 31 106 160;
+  --accent-light: #6fc2e8;
+  --accent-light-rgb: 111 194 232;
+
+  /* Type and shape. */
+  --font-display: 'Libre Caslon Display', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --radius: 10px;
+}

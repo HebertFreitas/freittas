@@ -1,0 +1,39 @@
+/*
+ * Preset "restaurante": Restaurante, cafeteria, padaria, pizzaria: terracota e creme.
+ * To use it: copy this whole file over src/config/theme.css,
+ * and set seo.fontsUrl in src/config/site.js to:
+ * https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=DM+Sans:wght@400;500;600;700&display=swap
+ * Also set seo.themeColor to #1d1512.
+ */
+:root {
+  /* Dark surfaces: header, hero shade, app section, footer, overlays. */
+  --dark: #1d1512;
+  --dark-rgb: 29 21 18;
+  --dark-2: #2a201b;
+
+  /* Light surfaces. */
+  --base: #fbf7f2;      /* main page background */
+  --surface: #f2ebe2;   /* alternating sections, icon boxes */
+  --line: #e3d9cd;
+
+  /* Text. */
+  --text: #221a16;
+  --muted: #6b5d55;
+  --neutral: #75665c;   /* icons and small neutral details */
+  --neutral-rgb: 117 102 92;
+  --on-dark: #f6efe6;
+  --on-dark-rgb: 246 239 230;
+  --on-dark-muted: rgb(var(--on-dark-rgb) / 0.66);
+  --on-dark-line: rgb(var(--on-dark-rgb) / 0.12);
+
+  /* Brand accents: --accent on light backgrounds, --accent-light on dark ones. */
+  --accent: #a8432a;
+  --accent-rgb: 168 67 42;
+  --accent-light: #e8a15a;
+  --accent-light-rgb: 232 161 90;
+
+  /* Type and shape. */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --radius: 10px;
+}

@@ -1,0 +1,49 @@
+/*
+ * Tema "Freittas": produtor musical, clima de balada (violeta profundo, magenta neon e ciano).
+ * Baseado no preset "academia" (fontes Archivo + Inter).
+ */
+:root {
+  /* Dark surfaces: header, hero shade, app section, footer, overlays. */
+  --dark: #0b0714;
+  --dark-rgb: 11 7 20;
+  --dark-2: #1a1030;
+
+  /* Light surfaces. */
+  --base: #f8f6fb;      /* main page background */
+  --surface: #ece7f4;   /* alternating sections, icon boxes */
+  --line: #d9d1e6;
+
+  /* Text. */
+  --text: #140d22;
+  --muted: #5c5470;
+  --neutral: #5f5677;   /* icons and small neutral details */
+  --neutral-rgb: 95 86 119;
+  --on-dark: #f4f0fb;
+  --on-dark-rgb: 244 240 251;
+  --on-dark-muted: rgb(var(--on-dark-rgb) / 0.66);
+  --on-dark-line: rgb(var(--on-dark-rgb) / 0.12);
+
+  /* Brand accents: --accent on light backgrounds, --accent-light on dark ones. */
+  --accent: #a3127a;
+  --accent-rgb: 163 18 122;
+  --accent-light: #ff4fd8;
+  --accent-light-rgb: 255 79 216;
+
+  /* Music section: second neon used by the player glow and visualizer. */
+  --neon: #3ee6ff;
+  --neon-rgb: 62 230 255;
+
+  /* Contact phones: brand colors of the apps drawn on the screens. */
+  --whatsapp: #25d366;
+  --whatsapp-bar: #1f2c34;
+  --whatsapp-chat: #0b141a;
+  --whatsapp-in: #202c33;
+  --whatsapp-out: #005c4b;
+  --spotify: #1ed760;
+  --spotify-bg: #121212;
+
+  /* Type and shape. */
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --radius: 10px;
+}

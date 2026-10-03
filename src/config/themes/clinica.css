@@ -1,0 +1,39 @@
+/*
+ * Preset "clinica": Clínica de estética, spa, salão feminino: verde sálvia e areia.
+ * To use it: copy this whole file over src/config/theme.css,
+ * and set seo.fontsUrl in src/config/site.js to:
+ * https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400..600;1,400..500&family=Jost:wght@400;500;600;700&display=swap
+ * Also set seo.themeColor to #1f2a28.
+ */
+:root {
+  /* Dark surfaces: header, hero shade, app section, footer, overlays. */
+  --dark: #1f2a28;
+  --dark-rgb: 31 42 40;
+  --dark-2: #2a3633;
+
+  /* Light surfaces. */
+  --base: #fbfaf8;      /* main page background */
+  --surface: #eef1ee;   /* alternating sections, icon boxes */
+  --line: #dde2de;
+
+  /* Text. */
+  --text: #1c2422;
+  --muted: #5b6763;
+  --neutral: #63716c;   /* icons and small neutral details */
+  --neutral-rgb: 99 113 108;
+  --on-dark: #f4f1ec;
+  --on-dark-rgb: 244 241 236;
+  --on-dark-muted: rgb(var(--on-dark-rgb) / 0.66);
+  --on-dark-line: rgb(var(--on-dark-rgb) / 0.12);
+
+  /* Brand accents: --accent on light backgrounds, --accent-light on dark ones. */
+  --accent: #6d5a4a;
+  --accent-rgb: 109 90 74;
+  --accent-light: #c9b29a;
+  --accent-light-rgb: 201 178 154;
+
+  /* Type and shape. */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Jost', system-ui, sans-serif;
+  --radius: 10px;
+}
